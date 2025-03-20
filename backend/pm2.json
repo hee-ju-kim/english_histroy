@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "English",
+      "script": "npm run start:dev",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "hj"
+      }
+    }
+  ]
+}

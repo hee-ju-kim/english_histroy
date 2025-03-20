@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",  // ES6 이상으로 설정
+    "module": "CommonJS",  // CommonJS로 설정
+    "experimentalDecorators": true,  // 데코레이터 기능 활성화
+    "emitDecoratorMetadata": true,  // 메타데이터 출력 활성화
+    "moduleResolution": "node",  // 모듈 해석 방법
+    "esModuleInterop": true,  // ES 모듈 호환
+    "skipLibCheck": true,  // 라이브러리 검사 건너뛰기
+    "strict": true,  // 엄격한 타입 검사 활성화
+    "outDir": "./dist",  // 출력 폴더
+    "rootDir": "./src"  // 소스 폴더
+  },
+  "include": ["src/**/*.ts", "src/configs/types/global.d.ts"],
+  "exclude": ["node_modules"]
+}
